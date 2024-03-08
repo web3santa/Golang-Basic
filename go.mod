@@ -1,3 +1,3 @@
-module github.com/web3santa/Golang-Basic
+module main.go
 
 go 1.21.5

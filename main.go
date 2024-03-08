@@ -1,12 +1,14 @@
 package main
 
-import "github.com/web3santa/Golang-Basic/package/helpers"
+import "main.go/helpers"
 
 func main() {
-
 	println("Hello")
 
-	var myVar = helpers.SomeType
-	myVar.Typename = "Some Name"
+	var myVar helpers.SomeType
+	myVar.TypeName = "Some name"
+	myVar.TypeNumber = 42
 
+	println("TypeName:", myVar.TypeName)
+	println("TypeNumber:", myVar.TypeNumber)
 }
